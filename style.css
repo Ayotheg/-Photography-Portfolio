@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    background-color:white;
+    box-sizing: border-box;
+}    
+
+.head{
+ font-family: 'Share Tech', sans-serif;
+text-align: center;
+font-size: 4rem;
+font: weight 500px;
+padding-top: 20px;
+
+}
+
+.mini{
+    display:inline-block;
+    list-style-type: none;
+    gap: 10px;
+    text-align: center;
+    padding-left: 38%;
+   
+    
+}
+
+ul,li{
+    display:inline-block;
+    flex-wrap: wrap;
+    font-family: 'Share-Tech', sans-serif;
+    justify-content:space-around;
+    list-style-type: none;
+    gap: 10px;
+    text-decoration: none;
+
+}    
+
+
+
+li,a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+
+li,a:visited{
+    color: rgb(224, 21, 21);
+}
+
+.img{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 16px;
+    margin-right: 12px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0%;
+    margin: 0%;
+    
+  
+    
+}
+
+@media only screen and (max-width:600px) {
+   .img{
+    width: 100%;
+   } 
+
+   .mini{
+    width: 100%;
+   }
+
+     .head{
+        width: 100%;
+     }  
+
+    
+
+    }
+    
